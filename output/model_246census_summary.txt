@@ -1,0 +1,31 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             avg_income   R-squared:                       0.474
+Model:                            OLS   Adj. R-squared:                  0.463
+Method:                 Least Squares   F-statistic:                     43.24
+Date:                Sun, 11 May 2025   Prob (F-statistic):           1.11e-31
+Time:                        23:06:59   Log-Likelihood:                -269.55
+No. Observations:                 246   AIC:                             551.1
+Df Residuals:                     240   BIC:                             572.1
+Df Model:                           5                                         
+Covariance Type:            nonrobust                                         
+==========================================================================================
+                             coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------------------
+const                    -98.3981    736.692     -0.134      0.894   -1549.605    1352.809
+green_ratio               71.9390    736.011      0.098      0.922   -1377.928    1521.806
+blue_ratio                 0.7518      5.063      0.149      0.882      -9.221      10.725
+social_housing_ratio      -0.0180      0.137     -0.132      0.895      -0.288       0.252
+centralheating_rate       24.8699      2.193     11.339      0.000      20.549      29.191
+private_ownership_rate     3.5582      0.261     13.619      0.000       3.043       4.073
+==============================================================================
+Omnibus:                       88.704   Durbin-Watson:                   0.971
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              276.395
+Skew:                           1.558   Prob(JB):                     9.58e-61
+Kurtosis:                       7.154   Cond. No.                     4.57e+04
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 4.57e+04. This might indicate that there are
+strong multicollinearity or other numerical problems.

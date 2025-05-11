@@ -1,0 +1,2 @@
+Correlation (avg_income vs avg_price): 0.782
+Correlation (district_SSI vs avg_price): 0.768
