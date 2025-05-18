@@ -1,0 +1,39 @@
+\begin{center}
+\begin{tabular}{lclc}
+\toprule
+\textbf{Dep. Variable:}         &    avg\_price    & \textbf{  R-squared:         } &       0.075    \\
+\textbf{Model:}                 &       OLS        & \textbf{  Adj. R-squared:    } &       0.075    \\
+\textbf{Method:}                &  Least Squares   & \textbf{  F-statistic:       } &       112.4    \\
+\textbf{Date:}                  & Sun, 18 May 2025 & \textbf{  Prob (F-statistic):} &   1.40e-114    \\
+\textbf{Time:}                  &     20:05:42     & \textbf{  Log-Likelihood:    } &     -45194.    \\
+\textbf{No. Observations:}      &        6907      & \textbf{  AIC:               } &   9.040e+04    \\
+\textbf{Df Residuals:}          &        6901      & \textbf{  BIC:               } &   9.044e+04    \\
+\textbf{Df Model:}              &           5      & \textbf{                     } &                \\
+\textbf{Covariance Type:}       &    nonrobust     & \textbf{                     } &                \\
+\bottomrule
+\end{tabular}
+\begin{tabular}{lcccccc}
+                                & \textbf{coef} & \textbf{std err} & \textbf{t} & \textbf{P$> |$t$|$} & \textbf{[0.025} & \textbf{0.975]}  \\
+\midrule
+\textbf{const}                  &      26.9997  &       28.799     &     0.938  &         0.349        &      -29.455    &       83.455     \\
+\textbf{distance\_to\_ugbs}     &       0.0465  &        0.065     &     0.719  &         0.472        &       -0.080    &        0.173     \\
+\textbf{distance\_to\_ugbs\_sq} &      -0.0002  &        0.000     &    -1.122  &         0.262        &       -0.001    &        0.000     \\
+\textbf{avg\_review}            &      -3.3563  &        5.897     &    -0.569  &         0.569        &      -14.916    &        8.203     \\
+\textbf{bedrooms}               &      37.0349  &        2.788     &    13.283  &         0.000        &       31.569    &       42.500     \\
+\textbf{bathrooms}              &      57.0091  &        5.521     &    10.327  &         0.000        &       46.187    &       67.831     \\
+\bottomrule
+\end{tabular}
+\begin{tabular}{lclc}
+\textbf{Omnibus:}       & 16652.945 & \textbf{  Durbin-Watson:     } &       1.872    \\
+\textbf{Prob(Omnibus):} &    0.000  & \textbf{  Jarque-Bera (JB):  } & 215581174.155  \\
+\textbf{Skew:}          &   24.818  & \textbf{  Prob(JB):          } &        0.00    \\
+\textbf{Kurtosis:}      &  867.074  & \textbf{  Cond. No.          } &    4.71e+05    \\
+\bottomrule
+\end{tabular}
+%\caption{OLS Regression Results}
+\end{center}
+
+Notes: \newline
+ [1] Standard Errors assume that the covariance matrix of the errors is correctly specified. \newline
+ [2] The condition number is large, 4.71e+05. This might indicate that there are \newline
+ strong multicollinearity or other numerical problems.

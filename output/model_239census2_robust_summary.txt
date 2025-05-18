@@ -1,0 +1,31 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             avg_income   R-squared:                       0.815
+Model:                            OLS   Adj. R-squared:                  0.810
+Method:                 Least Squares   F-statistic:                     85.48
+Date:                Sun, 18 May 2025   Prob (F-statistic):           1.52e-60
+Time:                        22:13:36   Log-Likelihood:                -110.33
+No. Observations:                 239   AIC:                             236.7
+Df Residuals:                     231   BIC:                             264.5
+Df Model:                           7                                         
+Covariance Type:                  HC1                                         
+==========================================================================================
+                             coef    std err          z      P>|z|      [0.025      0.975]
+------------------------------------------------------------------------------------------
+const                    -11.3519      2.888     -3.931      0.000     -17.013      -5.691
+green_ratio                0.0593      0.014      4.344      0.000       0.033       0.086
+blue_ratio                -1.1808      1.912     -0.618      0.537      -4.928       2.567
+social_housing_ratio       0.1783      0.084      2.120      0.034       0.013       0.343
+centralheating_rate       12.4076      2.085      5.952      0.000       8.322      16.493
+unemprate                  0.3203      0.067      4.770      0.000       0.189       0.452
+university_share           0.3823      0.050      7.657      0.000       0.284       0.480
+private_ownership_rate     0.9974      0.267      3.736      0.000       0.474       1.521
+==============================================================================
+Omnibus:                       30.439   Durbin-Watson:                   1.578
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               57.527
+Skew:                           0.669   Prob(JB):                     3.22e-13
+Kurtosis:                       4.997   Cond. No.                         412.
+==============================================================================
+
+Notes:
+[1] Standard Errors are heteroscedasticity robust (HC1)

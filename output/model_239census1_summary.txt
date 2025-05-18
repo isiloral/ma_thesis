@@ -1,0 +1,29 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             avg_income   R-squared:                       0.583
+Model:                            OLS   Adj. R-squared:                  0.574
+Method:                 Least Squares   F-statistic:                     65.11
+Date:                Sun, 18 May 2025   Prob (F-statistic):           2.51e-42
+Time:                        22:13:21   Log-Likelihood:                -207.60
+No. Observations:                 239   AIC:                             427.2
+Df Residuals:                     233   BIC:                             448.1
+Df Model:                           5                                         
+Covariance Type:            nonrobust                                         
+==========================================================================================
+                             coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------------------
+const                    -19.7271      4.763     -4.142      0.000     -29.111     -10.344
+green_ratio                0.0645      0.018      3.590      0.000       0.029       0.100
+blue_ratio                -3.7291      4.350     -0.857      0.392     -12.299       4.841
+social_housing_ratio       0.0615      0.109      0.562      0.574      -0.154       0.277
+centralheating_rate       22.6176      1.792     12.622      0.000      19.087      26.148
+private_ownership_rate     3.2819      0.215     15.250      0.000       2.858       3.706
+==============================================================================
+Omnibus:                       40.149   Durbin-Watson:                   1.399
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               75.532
+Skew:                           0.868   Prob(JB):                     3.97e-17
+Kurtosis:                       5.139   Cond. No.                         409.
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.

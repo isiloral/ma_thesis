@@ -1,0 +1,39 @@
+\begin{center}
+\begin{tabular}{lclc}
+\toprule
+\textbf{Dep. Variable:}           &   avg\_income    & \textbf{  R-squared:         } &     0.815   \\
+\textbf{Model:}                   &       OLS        & \textbf{  Adj. R-squared:    } &     0.810   \\
+\textbf{Method:}                  &  Least Squares   & \textbf{  F-statistic:       } &     85.48   \\
+\textbf{Date:}                    & Sun, 18 May 2025 & \textbf{  Prob (F-statistic):} &  1.52e-60   \\
+\textbf{Time:}                    &     22:13:36     & \textbf{  Log-Likelihood:    } &   -110.33   \\
+\textbf{No. Observations:}        &         239      & \textbf{  AIC:               } &     236.7   \\
+\textbf{Df Residuals:}            &         231      & \textbf{  BIC:               } &     264.5   \\
+\textbf{Df Model:}                &           7      & \textbf{                     } &             \\
+\textbf{Covariance Type:}         &       HC1        & \textbf{                     } &             \\
+\bottomrule
+\end{tabular}
+\begin{tabular}{lcccccc}
+                                  & \textbf{coef} & \textbf{std err} & \textbf{z} & \textbf{P$> |$z$|$} & \textbf{[0.025} & \textbf{0.975]}  \\
+\midrule
+\textbf{const}                    &     -11.3519  &        2.888     &    -3.931  &         0.000        &      -17.013    &       -5.691     \\
+\textbf{green\_ratio}             &       0.0593  &        0.014     &     4.344  &         0.000        &        0.033    &        0.086     \\
+\textbf{blue\_ratio}              &      -1.1808  &        1.912     &    -0.618  &         0.537        &       -4.928    &        2.567     \\
+\textbf{social\_housing\_ratio}   &       0.1783  &        0.084     &     2.120  &         0.034        &        0.013    &        0.343     \\
+\textbf{centralheating\_rate}     &      12.4076  &        2.085     &     5.952  &         0.000        &        8.322    &       16.493     \\
+\textbf{unemprate}                &       0.3203  &        0.067     &     4.770  &         0.000        &        0.189    &        0.452     \\
+\textbf{university\_share}        &       0.3823  &        0.050     &     7.657  &         0.000        &        0.284    &        0.480     \\
+\textbf{private\_ownership\_rate} &       0.9974  &        0.267     &     3.736  &         0.000        &        0.474    &        1.521     \\
+\bottomrule
+\end{tabular}
+\begin{tabular}{lclc}
+\textbf{Omnibus:}       & 30.439 & \textbf{  Durbin-Watson:     } &    1.578  \\
+\textbf{Prob(Omnibus):} &  0.000 & \textbf{  Jarque-Bera (JB):  } &   57.527  \\
+\textbf{Skew:}          &  0.669 & \textbf{  Prob(JB):          } & 3.22e-13  \\
+\textbf{Kurtosis:}      &  4.997 & \textbf{  Cond. No.          } &     412.  \\
+\bottomrule
+\end{tabular}
+%\caption{OLS Regression Results}
+\end{center}
+
+Notes: \newline
+ [1] Standard Errors are heteroscedasticity robust (HC1)

@@ -1,0 +1,33 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:              avg_price   R-squared:                       0.077
+Model:                            OLS   Adj. R-squared:                  0.076
+Method:                 Least Squares   F-statistic:                     52.83
+Date:                Sun, 18 May 2025   Prob (F-statistic):           7.38e-74
+Time:                        20:05:42   Log-Likelihood:                -45189.
+No. Observations:                6907   AIC:                         9.039e+04
+Df Residuals:                    6899   BIC:                         9.045e+04
+Df Model:                           7                                         
+Covariance Type:                  HC1                                         
+=======================================================================================
+                          coef    std err          z      P>|z|      [0.025      0.975]
+---------------------------------------------------------------------------------------
+const                  28.0195     31.811      0.881      0.378     -34.330      90.369
+distance_to_ugbs        0.0600      0.063      0.959      0.338      -0.063       0.183
+distance_to_ugbs_sq    -0.0003      0.000     -1.810      0.070      -0.001    2.29e-05
+avg_review             -3.3610      6.622     -0.508      0.612     -16.340       9.618
+bedrooms               36.0730      2.801     12.878      0.000      30.583      41.563
+bathrooms              56.2087      7.596      7.400      0.000      41.321      71.097
+ptype_Entire House     45.0428     39.996      1.126      0.260     -33.348     123.434
+ptype_Other             1.8710     17.194      0.109      0.913     -31.828      35.570
+==============================================================================
+Omnibus:                    16638.290   Durbin-Watson:                   1.868
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):        214868510.513
+Skew:                          24.762   Prob(JB):                         0.00
+Kurtosis:                     865.646   Cond. No.                     1.10e+06
+==============================================================================
+
+Notes:
+[1] Standard Errors are heteroscedasticity robust (HC1)
+[2] The condition number is large, 1.1e+06. This might indicate that there are
+strong multicollinearity or other numerical problems.

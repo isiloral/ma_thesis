@@ -1,0 +1,4 @@
+waterway  maxwidth  width  est_width  count
+   canal       NaN    NaN        NaN     42
+   river      24.0   15.0       15.0     32
+  stream       NaN    NaN        NaN   1195

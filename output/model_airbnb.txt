@@ -1,0 +1,31 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:              avg_price   R-squared:                       0.075
+Model:                            OLS   Adj. R-squared:                  0.075
+Method:                 Least Squares   F-statistic:                     112.4
+Date:                Sun, 18 May 2025   Prob (F-statistic):          1.40e-114
+Time:                        20:05:42   Log-Likelihood:                -45194.
+No. Observations:                6907   AIC:                         9.040e+04
+Df Residuals:                    6901   BIC:                         9.044e+04
+Df Model:                           5                                         
+Covariance Type:            nonrobust                                         
+=======================================================================================
+                          coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------
+const                  26.9997     28.799      0.938      0.349     -29.455      83.455
+distance_to_ugbs        0.0465      0.065      0.719      0.472      -0.080       0.173
+distance_to_ugbs_sq    -0.0002      0.000     -1.122      0.262      -0.001       0.000
+avg_review             -3.3563      5.897     -0.569      0.569     -14.916       8.203
+bedrooms               37.0349      2.788     13.283      0.000      31.569      42.500
+bathrooms              57.0091      5.521     10.327      0.000      46.187      67.831
+==============================================================================
+Omnibus:                    16652.945   Durbin-Watson:                   1.872
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):        215581174.155
+Skew:                          24.818   Prob(JB):                         0.00
+Kurtosis:                     867.074   Cond. No.                     4.71e+05
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 4.71e+05. This might indicate that there are
+strong multicollinearity or other numerical problems.
