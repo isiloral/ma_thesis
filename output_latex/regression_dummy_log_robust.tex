@@ -1,0 +1,41 @@
+\begin{center}
+\begin{tabular}{lclc}
+\toprule
+\textbf{Dep. Variable:}         &    avg\_price    & \textbf{  R-squared:         } &     0.240   \\
+\textbf{Model:}                 &       OLS        & \textbf{  Adj. R-squared:    } &     0.239   \\
+\textbf{Method:}                &  Least Squares   & \textbf{  F-statistic:       } &     138.9   \\
+\textbf{Date:}                  & Wed, 21 May 2025 & \textbf{  Prob (F-statistic):} & 3.52e-192   \\
+\textbf{Time:}                  &     16:27:01     & \textbf{  Log-Likelihood:    } &   -4433.8   \\
+\textbf{No. Observations:}      &        6919      & \textbf{  AIC:               } &     8884.   \\
+\textbf{Df Residuals:}          &        6911      & \textbf{  BIC:               } &     8938.   \\
+\textbf{Df Model:}              &           7      & \textbf{                     } &             \\
+\textbf{Covariance Type:}       &       HC1        & \textbf{                     } &             \\
+\bottomrule
+\end{tabular}
+\begin{tabular}{lcccccc}
+                                & \textbf{coef} & \textbf{std err} & \textbf{z} & \textbf{P$> |$z$|$} & \textbf{[0.025} & \textbf{0.975]}  \\
+\midrule
+\textbf{const}                  &       3.9694  &        0.083     &    47.805  &         0.000        &        3.807    &        4.132     \\
+\textbf{distance\_to\_ugbs}     &    1.692e-05  &        0.000     &     0.105  &         0.916        &       -0.000    &        0.000     \\
+\textbf{distance\_to\_ugbs\_sq} &   -3.457e-07  &     3.98e-07     &    -0.869  &         0.385        &    -1.13e-06    &     4.34e-07     \\
+\textbf{avg\_review}            &       0.0279  &        0.016     &     1.732  &         0.083        &       -0.004    &        0.059     \\
+\textbf{bedrooms}               &       0.2329  &        0.009     &    26.775  &         0.000        &        0.216    &        0.250     \\
+\textbf{bathrooms}              &       0.2245  &        0.032     &     6.958  &         0.000        &        0.161    &        0.288     \\
+\textbf{ptype\_Entire House}    &       0.0496  &        0.050     &     0.984  &         0.325        &       -0.049    &        0.148     \\
+\textbf{ptype\_Other}           &       0.1076  &        0.143     &     0.751  &         0.453        &       -0.173    &        0.389     \\
+\bottomrule
+\end{tabular}
+\begin{tabular}{lclc}
+\textbf{Omnibus:}       & 1932.569 & \textbf{  Durbin-Watson:     } &     1.367  \\
+\textbf{Prob(Omnibus):} &   0.000  & \textbf{  Jarque-Bera (JB):  } & 12904.171  \\
+\textbf{Skew:}          &   1.167  & \textbf{  Prob(JB):          } &      0.00  \\
+\textbf{Kurtosis:}      &   9.270  & \textbf{  Cond. No.          } &  1.10e+06  \\
+\bottomrule
+\end{tabular}
+%\caption{OLS Regression Results}
+\end{center}
+
+Notes: \newline
+ [1] Standard Errors are heteroscedasticity robust (HC1) \newline
+ [2] The condition number is large, 1.1e+06. This might indicate that there are \newline
+ strong multicollinearity or other numerical problems.

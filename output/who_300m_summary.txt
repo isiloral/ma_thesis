@@ -1,10 +1,10 @@
 WHO 300m Rule for Vienna:
-Total residential building number: 29638
+Total residential building number: 29659
 Municipal estate number: 1622
-Airbnb entire units number: 8439
-Within 300m of green space: 28132
+Airbnb entire units number: 8453
+Within 300m of green space: 27976
 Social Housing Within 300m of ugbs: 1594
-Airbnb Within 300m of ugbs: 8268
-Percentage compliant (for all) with WHO guideline: 94.92%
+Airbnb Within 300m of ugbs: 8281
+Percentage compliant (for all) with WHO guideline: 94.33%
 Percentage compliant (for social housing) with WHO guideline: 98.27%
 Percentage compliant (for Airbnbs) with WHO guideline: 97.97%

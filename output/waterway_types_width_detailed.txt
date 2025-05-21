@@ -1,4 +1,3 @@
 waterway  maxwidth_min  maxwidth_mean  maxwidth_max  width_min  width_mean  width_max  est_width_min  est_width_mean  est_width_max  count_
    canal           NaN            NaN           NaN        NaN         NaN        NaN            NaN             NaN            NaN      42
    river          24.0           24.0          24.0       15.0        15.0       15.0           15.0            15.0           15.0      29
-  stream           NaN            NaN           NaN        NaN         NaN        NaN            NaN             NaN            NaN    1195

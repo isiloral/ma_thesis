@@ -1,30 +1,30 @@
                             OLS Regression Results                            
 ==============================================================================
 Dep. Variable:             avg_income   R-squared:                       0.786
-Model:                            OLS   Adj. R-squared:                  0.780
-Method:                 Least Squares   F-statistic:                     79.09
-Date:                Sun, 18 May 2025   Prob (F-statistic):           1.55e-58
-Time:                        22:13:21   Log-Likelihood:                -158.98
-No. Observations:                 246   AIC:                             334.0
-Df Residuals:                     238   BIC:                             362.0
+Model:                            OLS   Adj. R-squared:                  0.779
+Method:                 Least Squares   F-statistic:                     79.31
+Date:                Wed, 21 May 2025   Prob (F-statistic):           1.23e-58
+Time:                        12:37:39   Log-Likelihood:                -159.08
+No. Observations:                 246   AIC:                             334.2
+Df Residuals:                     238   BIC:                             362.2
 Df Model:                           7                                         
 Covariance Type:                  HC1                                         
 ==========================================================================================
                              coef    std err          z      P>|z|      [0.025      0.975]
 ------------------------------------------------------------------------------------------
-const                    -12.6572      4.491     -2.818      0.005     -21.459      -3.855
-green_ratio                0.0507      0.013      3.893      0.000       0.025       0.076
-blue_ratio                 1.5160      3.950      0.384      0.701      -6.226       9.258
-social_housing_ratio       0.1582      0.051      3.079      0.002       0.057       0.259
-centralheating_rate       11.2037      2.149      5.212      0.000       6.991      15.417
-unemprate                  0.3707      0.078      4.751      0.000       0.218       0.524
-university_share           0.4763      0.060      7.988      0.000       0.359       0.593
-private_ownership_rate     0.6128      0.292      2.101      0.036       0.041       1.184
+const                    -11.6174      4.515     -2.573      0.010     -20.467      -2.768
+green_ratio                0.0509      0.013      3.899      0.000       0.025       0.076
+blue_ratio                 0.4695      3.976      0.118      0.906      -7.324       8.263
+social_housing_ratio       0.1574      0.051      3.079      0.002       0.057       0.258
+centralheating_rate       11.2146      2.144      5.230      0.000       7.012      15.417
+employment                 0.3697      0.078      4.758      0.000       0.217       0.522
+university_share           0.4770      0.060      8.010      0.000       0.360       0.594
+private_ownership_rate     0.6127      0.292      2.102      0.036       0.041       1.184
 ==============================================================================
-Omnibus:                       61.231   Durbin-Watson:                   1.254
-Prob(Omnibus):                  0.000   Jarque-Bera (JB):              173.587
-Skew:                           1.080   Prob(JB):                     2.02e-38
-Kurtosis:                       6.502   Cond. No.                         381.
+Omnibus:                       61.146   Durbin-Watson:                   1.248
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              173.279
+Skew:                           1.079   Prob(JB):                     2.36e-38
+Kurtosis:                       6.500   Cond. No.                         387.
 ==============================================================================
 
 Notes:

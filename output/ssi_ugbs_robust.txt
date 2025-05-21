@@ -1,0 +1,28 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                    SSI   R-squared:                       0.118
+Model:                            OLS   Adj. R-squared:                  0.103
+Method:                 Least Squares   F-statistic:                     6.390
+Date:                Wed, 21 May 2025   Prob (F-statistic):           6.76e-05
+Time:                        12:37:39   Log-Likelihood:                -310.56
+No. Observations:                 239   AIC:                             631.1
+Df Residuals:                     234   BIC:                             648.5
+Df Model:                           4                                         
+Covariance Type:                  HC1                                         
+========================================================================================
+                           coef    std err          z      P>|z|      [0.025      0.975]
+----------------------------------------------------------------------------------------
+const                    9.9884      4.913      2.033      0.042       0.359      19.617
+green_ratio              0.0998      0.027      3.707      0.000       0.047       0.153
+blue_ratio              -9.9542      4.624     -2.153      0.031     -19.017      -0.892
+social_housing_ratio    -0.5862      0.312     -1.878      0.060      -1.198       0.025
+centralheating_rate     -0.0265      2.029     -0.013      0.990      -4.003       3.950
+==============================================================================
+Omnibus:                        7.600   Durbin-Watson:                   1.162
+Prob(Omnibus):                  0.022   Jarque-Bera (JB):                9.389
+Skew:                           0.257   Prob(JB):                      0.00915
+Kurtosis:                       3.824   Cond. No.                         402.
+==============================================================================
+
+Notes:
+[1] Standard Errors are heteroscedasticity robust (HC1)
