@@ -3,29 +3,29 @@
 Dep. Variable:              avg_price   R-squared:                       0.075
 Model:                            OLS   Adj. R-squared:                  0.075
 Method:                 Least Squares   F-statistic:                     112.6
-Date:                Wed, 21 May 2025   Prob (F-statistic):          9.02e-115
-Time:                        16:25:58   Log-Likelihood:                -45267.
-No. Observations:                6919   AIC:                         9.055e+04
-Df Residuals:                    6913   BIC:                         9.059e+04
+Date:                Thu, 22 May 2025   Prob (F-statistic):          8.40e-115
+Time:                        23:19:31   Log-Likelihood:                -45273.
+No. Observations:                6920   AIC:                         9.056e+04
+Df Residuals:                    6914   BIC:                         9.060e+04
 Df Model:                           5                                         
 Covariance Type:            nonrobust                                         
 =======================================================================================
                           coef    std err          t      P>|t|      [0.025      0.975]
 ---------------------------------------------------------------------------------------
-const                  26.5145     28.739      0.923      0.356     -29.823      82.852
-distance_to_ugbs        0.0470      0.065      0.729      0.466      -0.079       0.173
-distance_to_ugbs_sq    -0.0002      0.000     -1.144      0.252      -0.001       0.000
-avg_review             -3.2215      5.880     -0.548      0.584     -14.748       8.305
-bedrooms               37.0504      2.785     13.303      0.000      31.591      42.510
-bathrooms              56.8611      5.512     10.316      0.000      46.056      67.667
+const                  26.7373     28.732      0.931      0.352     -29.587      83.062
+distance_to_ugbs        0.0424      0.064      0.658      0.510      -0.084       0.169
+distance_to_ugbs_sq    -0.0002      0.000     -1.085      0.278      -0.001       0.000
+avg_review             -3.1989      5.880     -0.544      0.586     -14.725       8.327
+bedrooms               37.0672      2.785     13.310      0.000      31.608      42.526
+bathrooms              56.8391      5.512     10.312      0.000      46.034      67.644
 ==============================================================================
-Omnibus:                    16686.049   Durbin-Watson:                   1.871
-Prob(Omnibus):                  0.000   Jarque-Bera (JB):        216555069.551
-Skew:                          24.833   Prob(JB):                         0.00
-Kurtosis:                     868.274   Cond. No.                     4.71e+05
+Omnibus:                    16688.339   Durbin-Watson:                   1.871
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):        216593200.904
+Skew:                          24.832   Prob(JB):                         0.00
+Kurtosis:                     868.288   Cond. No.                     4.70e+05
 ==============================================================================
 
 Notes:
 [1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
-[2] The condition number is large, 4.71e+05. This might indicate that there are
+[2] The condition number is large, 4.7e+05. This might indicate that there are
 strong multicollinearity or other numerical problems.

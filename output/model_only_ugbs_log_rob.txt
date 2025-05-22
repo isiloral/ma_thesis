@@ -2,20 +2,20 @@
 ==============================
                     avg_price 
 ------------------------------
-const               4.9318*** 
-                    (0.0301)  
-distance_to_ugbs    -0.0000   
+const               4.9232*** 
+                    (0.0290)  
+distance_to_ugbs    0.0000    
                     (0.0002)  
 distance_to_ugbs_sq -0.0000   
                     (0.0000)  
-ugbs_L              -0.2943***
-                    (0.0281)  
-ugbs_R              -0.0964***
-                    (0.0336)  
-ugbs_U              -0.3411***
-                    (0.0670)  
-R-squared           0.0320    
-R-squared Adj.      0.0313    
+ugbs_L              -0.2872***
+                    (0.0272)  
+ugbs_R              -0.0886***
+                    (0.0329)  
+ugbs_U              -0.3332***
+                    (0.0666)  
+R-squared           0.0319    
+R-squared Adj.      0.0312    
 ==============================
 Standard errors in
 parentheses.

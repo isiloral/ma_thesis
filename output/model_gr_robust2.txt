@@ -2,30 +2,30 @@
 ===============================
                      avg_price 
 -------------------------------
-const               76.5097**  
-                    (36.8032)  
-distance_to_ugbs    0.0721     
-                    (0.0627)   
+const               73.8247**  
+                    (36.4082)  
+distance_to_ugbs    0.0751     
+                    (0.0630)   
 distance_to_ugbs_sq -0.0004**  
                     (0.0002)   
-avg_review          -2.6604    
+avg_review          -2.6036    
                     (6.5813)   
-bedrooms            35.8850*** 
-                    (2.7673)   
-bathrooms           55.8561*** 
-                    (7.5143)   
-ptype_Entire House  45.0353    
-                    (39.8680)  
-ptype_Other         9.1087     
-                    (17.3489)  
-ugbs_L              -58.0075***
-                    (12.2982)  
-ugbs_R              -33.2584** 
-                    (13.0537)  
-ugbs_U              -74.2260***
-                    (17.2597)  
-R-squared           0.0855     
-R-squared Adj.      0.0842     
+bedrooms            35.8713*** 
+                    (2.7667)   
+bathrooms           55.9136*** 
+                    (7.5154)   
+ptype_Entire House  45.2293    
+                    (39.9045)  
+ptype_Other         9.1829     
+                    (17.3463)  
+ugbs_L              -56.0002***
+                    (11.7963)  
+ugbs_R              -31.1598** 
+                    (12.5691)  
+ugbs_U              -72.1243***
+                    (16.7938)  
+R-squared           0.0853     
+R-squared Adj.      0.0840     
 ===============================
 Standard errors in parentheses.
 * p<.1, ** p<.05, ***p<.01

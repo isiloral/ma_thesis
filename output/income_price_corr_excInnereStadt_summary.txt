@@ -1,3 +1,3 @@
 Number of districts (excluding Innere Stadt): 22
-Correlation excluding Innere Stadt (avg_income vs avg_price): 0.834
+Correlation excluding Innere Stadt (avg_income vs avg_price): 0.833
 Correlation excluding Innere Stadt (district_SSI vs avg_price): 0.894

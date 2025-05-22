@@ -2,24 +2,24 @@
 =============================
                     avg_price
 -----------------------------
-const               3.9694***
+const               3.9710***
                     (0.0830) 
-distance_to_ugbs    0.0000   
+distance_to_ugbs    -0.0000  
                     (0.0002) 
 distance_to_ugbs_sq -0.0000  
                     (0.0000) 
-avg_review          0.0279*  
+avg_review          0.0280*  
                     (0.0161) 
-bedrooms            0.2329***
+bedrooms            0.2330***
                     (0.0087) 
-bathrooms           0.2245***
+bathrooms           0.2243***
                     (0.0323) 
-ptype_Entire House  0.0496   
+ptype_Entire House  0.0491   
                     (0.0504) 
-ptype_Other         0.1076   
-                    (0.1433) 
-R-squared           0.2395   
-R-squared Adj.      0.2387   
+ptype_Other         0.1071   
+                    (0.1432) 
+R-squared           0.2396   
+R-squared Adj.      0.2388   
 =============================
 Standard errors in
 parentheses.

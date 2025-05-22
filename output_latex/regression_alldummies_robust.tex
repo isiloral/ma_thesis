@@ -1,13 +1,13 @@
 \begin{center}
 \begin{tabular}{lclc}
 \toprule
-\textbf{Dep. Variable:}         &    avg\_price    & \textbf{  R-squared:         } &       0.086    \\
+\textbf{Dep. Variable:}         &    avg\_price    & \textbf{  R-squared:         } &       0.085    \\
 \textbf{Model:}                 &       OLS        & \textbf{  Adj. R-squared:    } &       0.084    \\
-\textbf{Method:}                &  Least Squares   & \textbf{  F-statistic:       } &       40.51    \\
-\textbf{Date:}                  & Wed, 21 May 2025 & \textbf{  Prob (F-statistic):} &    1.88e-78    \\
-\textbf{Time:}                  &     16:27:06     & \textbf{  Log-Likelihood:    } &     -45229.    \\
-\textbf{No. Observations:}      &        6919      & \textbf{  AIC:               } &   9.048e+04    \\
-\textbf{Df Residuals:}          &        6908      & \textbf{  BIC:               } &   9.055e+04    \\
+\textbf{Method:}                &  Least Squares   & \textbf{  F-statistic:       } &       40.49    \\
+\textbf{Date:}                  & Thu, 22 May 2025 & \textbf{  Prob (F-statistic):} &    2.09e-78    \\
+\textbf{Time:}                  &     23:19:31     & \textbf{  Log-Likelihood:    } &     -45236.    \\
+\textbf{No. Observations:}      &        6920      & \textbf{  AIC:               } &   9.049e+04    \\
+\textbf{Df Residuals:}          &        6909      & \textbf{  BIC:               } &   9.057e+04    \\
 \textbf{Df Model:}              &          10      & \textbf{                     } &                \\
 \textbf{Covariance Type:}       &       HC1        & \textbf{                     } &                \\
 \bottomrule
@@ -15,24 +15,24 @@
 \begin{tabular}{lcccccc}
                                 & \textbf{coef} & \textbf{std err} & \textbf{z} & \textbf{P$> |$z$|$} & \textbf{[0.025} & \textbf{0.975]}  \\
 \midrule
-\textbf{const}                  &      76.5097  &       36.803     &     2.079  &         0.038        &        4.377    &      148.643     \\
-\textbf{distance\_to\_ugbs}     &       0.0721  &        0.063     &     1.151  &         0.250        &       -0.051    &        0.195     \\
-\textbf{distance\_to\_ugbs\_sq} &      -0.0004  &        0.000     &    -2.174  &         0.030        &       -0.001    &    -3.46e-05     \\
-\textbf{avg\_review}            &      -2.6604  &        6.581     &    -0.404  &         0.686        &      -15.560    &       10.239     \\
-\textbf{bedrooms}               &      35.8850  &        2.767     &    12.967  &         0.000        &       30.461    &       41.309     \\
-\textbf{bathrooms}              &      55.8561  &        7.514     &     7.433  &         0.000        &       41.128    &       70.584     \\
-\textbf{ptype\_Entire House}    &      45.0353  &       39.868     &     1.130  &         0.259        &      -33.105    &      123.175     \\
-\textbf{ptype\_Other}           &       9.1087  &       17.349     &     0.525  &         0.600        &      -24.894    &       43.112     \\
-\textbf{ugbs\_L}                &     -58.0075  &       12.298     &    -4.717  &         0.000        &      -82.112    &      -33.903     \\
-\textbf{ugbs\_R}                &     -33.2584  &       13.054     &    -2.548  &         0.011        &      -58.843    &       -7.674     \\
-\textbf{ugbs\_U}                &     -74.2260  &       17.260     &    -4.301  &         0.000        &     -108.054    &      -40.398     \\
+\textbf{const}                  &      73.8247  &       36.408     &     2.028  &         0.043        &        2.466    &      145.183     \\
+\textbf{distance\_to\_ugbs}     &       0.0751  &        0.063     &     1.192  &         0.233        &       -0.048    &        0.199     \\
+\textbf{distance\_to\_ugbs\_sq} &      -0.0004  &        0.000     &    -2.176  &         0.030        &       -0.001    &    -3.51e-05     \\
+\textbf{avg\_review}            &      -2.6036  &        6.581     &    -0.396  &         0.692        &      -15.503    &       10.296     \\
+\textbf{bedrooms}               &      35.8713  &        2.767     &    12.965  &         0.000        &       30.449    &       41.294     \\
+\textbf{bathrooms}              &      55.9136  &        7.515     &     7.440  &         0.000        &       41.184    &       70.643     \\
+\textbf{ptype\_Entire House}    &      45.2293  &       39.905     &     1.133  &         0.257        &      -32.982    &      123.441     \\
+\textbf{ptype\_Other}           &       9.1829  &       17.346     &     0.529  &         0.597        &      -24.815    &       43.181     \\
+\textbf{ugbs\_L}                &     -56.0002  &       11.796     &    -4.747  &         0.000        &      -79.120    &      -32.880     \\
+\textbf{ugbs\_R}                &     -31.1598  &       12.569     &    -2.479  &         0.013        &      -55.795    &       -6.525     \\
+\textbf{ugbs\_U}                &     -72.1243  &       16.794     &    -4.295  &         0.000        &     -105.040    &      -39.209     \\
 \bottomrule
 \end{tabular}
 \begin{tabular}{lclc}
-\textbf{Omnibus:}       & 16736.410 & \textbf{  Durbin-Watson:     } &       1.889    \\
-\textbf{Prob(Omnibus):} &    0.000  & \textbf{  Jarque-Bera (JB):  } & 223141451.466  \\
+\textbf{Omnibus:}       & 16738.718 & \textbf{  Durbin-Watson:     } &       1.888    \\
+\textbf{Prob(Omnibus):} &    0.000  & \textbf{  Jarque-Bera (JB):  } & 223143583.876  \\
 \textbf{Skew:}          &   25.012  & \textbf{  Prob(JB):          } &        0.00    \\
-\textbf{Kurtosis:}      &  881.357  & \textbf{  Cond. No.          } &    1.10e+06    \\
+\textbf{Kurtosis:}      &  881.297  & \textbf{  Cond. No.          } &    1.10e+06    \\
 \bottomrule
 \end{tabular}
 %\caption{OLS Regression Results}
