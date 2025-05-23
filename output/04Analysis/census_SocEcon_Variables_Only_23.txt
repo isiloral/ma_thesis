@@ -1,0 +1,48 @@
+Model: SocEcon_Variables_Only_23
+
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             avg_income   R-squared:                       0.718
+Model:                            OLS   Adj. R-squared:                  0.715
+Method:                 Least Squares   F-statistic:                     117.5
+Date:                Sat, 24 May 2025   Prob (F-statistic):           5.65e-47
+Time:                        00:44:38   Log-Likelihood:                -192.73
+No. Observations:                 246   AIC:                             393.5
+Df Residuals:                     242   BIC:                             407.5
+Df Model:                           3                                         
+Covariance Type:                  HC1                                         
+====================================================================================
+                       coef    std err          z      P>|z|      [0.025      0.975]
+------------------------------------------------------------------------------------
+const            -3.978e-17      0.034  -1.17e-15      1.000      -0.067       0.067
+employment           0.6184      0.157      3.936      0.000       0.310       0.926
+university_share     0.4712      0.062      7.548      0.000       0.349       0.594
+benefit_share       -0.1579      0.100     -1.579      0.114      -0.354       0.038
+==============================================================================
+Omnibus:                       43.663   Durbin-Watson:                   1.108
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               86.207
+Skew:                           0.898   Prob(JB):                     1.91e-19
+Kurtosis:                       5.278   Cond. No.                         6.14
+==============================================================================
+
+Notes:
+[1] Standard Errors are heteroscedasticity robust (HC1)
+
+== Summary (Significance Stars) ==
+
+==========================================
+                 SocEcon_Variables_Only_23
+------------------------------------------
+const            -0.0000                  
+                 (0.0340)                 
+employment       0.6184***                
+                 (0.1571)                 
+university_share 0.4712***                
+                 (0.0624)                 
+benefit_share    -0.1579                  
+                 (0.1000)                 
+R-squared        0.7183                   
+R-squared Adj.   0.7148                   
+==========================================
+Standard errors in parentheses.
+* p<.1, ** p<.05, ***p<.01

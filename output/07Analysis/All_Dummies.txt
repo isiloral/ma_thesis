@@ -1,0 +1,71 @@
+Model: All_Dummies
+
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:              avg_price   R-squared:                       0.085
+Model:                            OLS   Adj. R-squared:                  0.084
+Method:                 Least Squares   F-statistic:                     40.49
+Date:                Sat, 24 May 2025   Prob (F-statistic):           2.09e-78
+Time:                        00:47:06   Log-Likelihood:                -45236.
+No. Observations:                6920   AIC:                         9.049e+04
+Df Residuals:                    6909   BIC:                         9.057e+04
+Df Model:                          10                                         
+Covariance Type:                  HC1                                         
+=======================================================================================
+                          coef    std err          z      P>|z|      [0.025      0.975]
+---------------------------------------------------------------------------------------
+const                  73.8247     36.408      2.028      0.043       2.466     145.183
+distance_to_ugbs        0.0751      0.063      1.192      0.233      -0.048       0.199
+distance_to_ugbs_sq    -0.0004      0.000     -2.176      0.030      -0.001   -3.51e-05
+avg_review             -2.6036      6.581     -0.396      0.692     -15.503      10.296
+bedrooms               35.8713      2.767     12.965      0.000      30.449      41.294
+bathrooms              55.9136      7.515      7.440      0.000      41.184      70.643
+ptype_Entire House     45.2293     39.905      1.133      0.257     -32.982     123.441
+ptype_Other             9.1829     17.346      0.529      0.597     -24.815      43.181
+ugbs_L                -56.0002     11.796     -4.747      0.000     -79.120     -32.880
+ugbs_R                -31.1598     12.569     -2.479      0.013     -55.795      -6.525
+ugbs_U                -72.1243     16.794     -4.295      0.000    -105.040     -39.209
+==============================================================================
+Omnibus:                    16738.718   Durbin-Watson:                   1.888
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):        223143583.876
+Skew:                          25.012   Prob(JB):                         0.00
+Kurtosis:                     881.297   Cond. No.                     1.10e+06
+==============================================================================
+
+Notes:
+[1] Standard Errors are heteroscedasticity robust (HC1)
+[2] The condition number is large, 1.1e+06. This might indicate that there are
+strong multicollinearity or other numerical problems.
+
+== Summary (Significance Stars) ==
+
+===============================
+                    All_Dummies
+-------------------------------
+const               73.8247**  
+                    (36.4082)  
+distance_to_ugbs    0.0751     
+                    (0.0630)   
+distance_to_ugbs_sq -0.0004**  
+                    (0.0002)   
+avg_review          -2.6036    
+                    (6.5813)   
+bedrooms            35.8713*** 
+                    (2.7667)   
+bathrooms           55.9136*** 
+                    (7.5154)   
+ptype_Entire House  45.2293    
+                    (39.9045)  
+ptype_Other         9.1829     
+                    (17.3463)  
+ugbs_L              -56.0002***
+                    (11.7963)  
+ugbs_R              -31.1598** 
+                    (12.5691)  
+ugbs_U              -72.1243***
+                    (16.7938)  
+R-squared           0.0853     
+R-squared Adj.      0.0840     
+===============================
+Standard errors in parentheses.
+* p<.1, ** p<.05, ***p<.01

@@ -1,0 +1,63 @@
+Model: AllVars_SSI_22 (SSI as dependent variable, robust SEs)
+
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                    SSI   R-squared:                       0.980
+Model:                            OLS   Adj. R-squared:                  0.979
+Method:                 Least Squares   F-statistic:                     1046.
+Date:                Sat, 24 May 2025   Prob (F-statistic):          3.53e-176
+Time:                        00:44:38   Log-Likelihood:                 140.39
+No. Observations:                 239   AIC:                            -262.8
+Df Residuals:                     230   BIC:                            -231.5
+Df Model:                           8                                         
+Covariance Type:                  HC1                                         
+==========================================================================================
+                             coef    std err          z      P>|z|      [0.025      0.975]
+------------------------------------------------------------------------------------------
+const                     -4.7401      0.720     -6.584      0.000      -6.151      -3.329
+green_ratio                0.4912      0.097      5.065      0.000       0.301       0.681
+blue_ratio                -0.2916      0.108     -2.710      0.007      -0.503      -0.081
+social_housing_ratio       0.0679      0.027      2.554      0.011       0.016       0.120
+centralheating_rate        4.6429      0.710      6.537      0.000       3.251       6.035
+employment                 0.2930      0.032      9.048      0.000       0.230       0.356
+university_share           0.5026      0.015     33.631      0.000       0.473       0.532
+benefit_share              0.1945      0.026      7.606      0.000       0.144       0.245
+private_ownership_rate     0.4112      0.088      4.656      0.000       0.238       0.584
+==============================================================================
+Omnibus:                       16.746   Durbin-Watson:                   1.731
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               25.682
+Skew:                           0.442   Prob(JB):                     2.65e-06
+Kurtosis:                       4.341   Cond. No.                         121.
+==============================================================================
+
+Notes:
+[1] Standard Errors are heteroscedasticity robust (HC1)
+
+== Summary (Significance Stars) ==
+
+=====================================
+                       AllVars_SSI_22
+-------------------------------------
+const                  -4.7401***    
+                       (0.7200)      
+green_ratio            0.4912***     
+                       (0.0970)      
+blue_ratio             -0.2916***    
+                       (0.1076)      
+social_housing_ratio   0.0679**      
+                       (0.0266)      
+centralheating_rate    4.6429***     
+                       (0.7103)      
+employment             0.2930***     
+                       (0.0324)      
+university_share       0.5026***     
+                       (0.0149)      
+benefit_share          0.1945***     
+                       (0.0256)      
+private_ownership_rate 0.4112***     
+                       (0.0883)      
+R-squared              0.9797        
+R-squared Adj.         0.9790        
+=====================================
+Standard errors in parentheses.
+* p<.1, ** p<.05, ***p<.01

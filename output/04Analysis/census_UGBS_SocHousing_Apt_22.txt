@@ -1,0 +1,54 @@
+Model: UGBS_SocHousing_Apt_22 (filtered dataset, robust SEs)
+
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             avg_income   R-squared:                       0.622
+Model:                            OLS   Adj. R-squared:                  0.614
+Method:                 Least Squares   F-statistic:                     56.15
+Date:                Sat, 24 May 2025   Prob (F-statistic):           3.86e-38
+Time:                        00:44:38   Log-Likelihood:                -195.70
+No. Observations:                 239   AIC:                             403.4
+Df Residuals:                     233   BIC:                             424.3
+Df Model:                           5                                         
+Covariance Type:                  HC1                                         
+==========================================================================================
+                             coef    std err          z      P>|z|      [0.025      0.975]
+------------------------------------------------------------------------------------------
+const                    -23.0612      2.004    -11.506      0.000     -26.990     -19.133
+green_ratio                1.6766      0.343      4.882      0.000       1.003       2.350
+blue_ratio                -1.3867      0.371     -3.741      0.000      -2.113      -0.660
+social_housing_ratio       0.0634      0.216      0.294      0.769      -0.360       0.487
+centralheating_rate       22.0894      1.990     11.099      0.000      18.189      25.990
+private_ownership_rate     3.2813      0.249     13.195      0.000       2.794       3.769
+==============================================================================
+Omnibus:                       17.040   Durbin-Watson:                   1.413
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               22.367
+Skew:                           0.512   Prob(JB):                     1.39e-05
+Kurtosis:                       4.095   Cond. No.                         99.3
+==============================================================================
+
+Notes:
+[1] Standard Errors are heteroscedasticity robust (HC1)
+
+== Summary (Significance Stars) ==
+
+=============================================
+                       UGBS_SocHousing_Apt_22
+---------------------------------------------
+const                  -23.0612***           
+                       (2.0043)              
+green_ratio            1.6766***             
+                       (0.3435)              
+blue_ratio             -1.3867***            
+                       (0.3707)              
+social_housing_ratio   0.0634                
+                       (0.2160)              
+centralheating_rate    22.0894***            
+                       (1.9902)              
+private_ownership_rate 3.2813***             
+                       (0.2487)              
+R-squared              0.6224                
+R-squared Adj.         0.6143                
+=============================================
+Standard errors in parentheses.
+* p<.1, ** p<.05, ***p<.01

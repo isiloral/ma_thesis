@@ -1,33 +1,30 @@
                             OLS Regression Results                            
 ==============================================================================
-Dep. Variable:              avg_price   R-squared:                       0.269
-Model:                            OLS   Adj. R-squared:                  0.268
-Method:                 Least Squares   F-statistic:                     127.4
-Date:                Thu, 22 May 2025   Prob (F-statistic):          4.32e-245
-Time:                        23:19:31   Log-Likelihood:                -4298.4
-No. Observations:                6920   AIC:                             8619.
-Df Residuals:                    6909   BIC:                             8694.
-Df Model:                          10                                         
+Dep. Variable:              avg_price   R-squared:                       0.240
+Model:                            OLS   Adj. R-squared:                  0.239
+Method:                 Least Squares   F-statistic:                     139.0
+Date:                Sat, 24 May 2025   Prob (F-statistic):          2.37e-192
+Time:                        00:21:56   Log-Likelihood:                -4434.9
+No. Observations:                6920   AIC:                             8886.
+Df Residuals:                    6912   BIC:                             8941.
+Df Model:                           7                                         
 Covariance Type:                  HC1                                         
 =======================================================================================
                           coef    std err          z      P>|z|      [0.025      0.975]
 ---------------------------------------------------------------------------------------
-const                   4.1875      0.086     48.447      0.000       4.018       4.357
-distance_to_ugbs     9.927e-05      0.000      0.610      0.542      -0.000       0.000
-distance_to_ugbs_sq -6.893e-07   4.23e-07     -1.631      0.103   -1.52e-06    1.39e-07
-avg_review              0.0318      0.016      1.960      0.050    5.31e-06       0.064
-bedrooms                0.2319      0.009     27.243      0.000       0.215       0.249
-bathrooms               0.2230      0.031      7.099      0.000       0.161       0.285
-ptype_Entire House      0.0481      0.051      0.942      0.346      -0.052       0.148
-ptype_Other             0.1510      0.144      1.051      0.293      -0.130       0.432
-ugbs_L                 -0.2786      0.024    -11.669      0.000      -0.325      -0.232
-ugbs_R                 -0.0899      0.029     -3.135      0.002      -0.146      -0.034
-ugbs_U                 -0.3109      0.058     -5.335      0.000      -0.425      -0.197
+const                   3.9710      0.083     47.818      0.000       3.808       4.134
+distance_to_ugbs     -1.71e-05      0.000     -0.107      0.915      -0.000       0.000
+distance_to_ugbs_sq -2.617e-07   3.96e-07     -0.662      0.508   -1.04e-06    5.13e-07
+avg_review              0.0280      0.016      1.742      0.082      -0.004       0.060
+bedrooms                0.2330      0.009     26.790      0.000       0.216       0.250
+bathrooms               0.2243      0.032      6.952      0.000       0.161       0.288
+ptype_Entire House      0.0491      0.050      0.974      0.330      -0.050       0.148
+ptype_Other             0.1071      0.143      0.748      0.454      -0.173       0.388
 ==============================================================================
-Omnibus:                     1935.805   Durbin-Watson:                   1.433
-Prob(Omnibus):                  0.000   Jarque-Bera (JB):            13482.837
-Skew:                           1.156   Prob(JB):                         0.00
-Kurtosis:                       9.435   Cond. No.                     1.10e+06
+Omnibus:                     1931.959   Durbin-Watson:                   1.367
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):            12894.707
+Skew:                           1.167   Prob(JB):                         0.00
+Kurtosis:                       9.267   Cond. No.                     1.10e+06
 ==============================================================================
 
 Notes:

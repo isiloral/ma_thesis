@@ -1,0 +1,48 @@
+Model: UGBS_SocHousing_23
+
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             avg_income   R-squared:                       0.134
+Model:                            OLS   Adj. R-squared:                  0.123
+Method:                 Least Squares   F-statistic:                     8.992
+Date:                Sat, 24 May 2025   Prob (F-statistic):           1.14e-05
+Time:                        00:44:38   Log-Likelihood:                -330.87
+No. Observations:                 246   AIC:                             669.7
+Df Residuals:                     242   BIC:                             683.8
+Df Model:                           3                                         
+Covariance Type:                  HC1                                         
+========================================================================================
+                           coef    std err          z      P>|z|      [0.025      0.975]
+----------------------------------------------------------------------------------------
+const                   -0.1153      0.090     -1.282      0.200      -0.292       0.061
+green_ratio              2.3315      0.529      4.407      0.000       1.295       3.368
+blue_ratio              -1.8073      0.623     -2.902      0.004      -3.028      -0.587
+social_housing_ratio    -0.4805      0.264     -1.819      0.069      -0.998       0.037
+==============================================================================
+Omnibus:                       48.718   Durbin-Watson:                   0.956
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               77.058
+Skew:                           1.123   Prob(JB):                     1.85e-17
+Kurtosis:                       4.573   Cond. No.                         15.1
+==============================================================================
+
+Notes:
+[1] Standard Errors are heteroscedasticity robust (HC1)
+
+== Summary (Significance Stars) ==
+
+=======================================
+                     UGBS_SocHousing_23
+---------------------------------------
+const                -0.1153           
+                     (0.0899)          
+green_ratio          2.3315***         
+                     (0.5290)          
+blue_ratio           -1.8073***        
+                     (0.6227)          
+social_housing_ratio -0.4805*          
+                     (0.2642)          
+R-squared            0.1339            
+R-squared Adj.       0.1232            
+=======================================
+Standard errors in parentheses.
+* p<.1, ** p<.05, ***p<.01

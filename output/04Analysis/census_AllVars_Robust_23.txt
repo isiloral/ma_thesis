@@ -1,0 +1,63 @@
+Model: AllVars_Robust_23
+
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             avg_income   R-squared:                       0.799
+Model:                            OLS   Adj. R-squared:                  0.792
+Method:                 Least Squares   F-statistic:                     79.58
+Date:                Sat, 24 May 2025   Prob (F-statistic):           8.21e-63
+Time:                        00:44:38   Log-Likelihood:                -151.27
+No. Observations:                 246   AIC:                             320.5
+Df Residuals:                     237   BIC:                             352.1
+Df Model:                           8                                         
+Covariance Type:                  HC1                                         
+==========================================================================================
+                             coef    std err          z      P>|z|      [0.025      0.975]
+------------------------------------------------------------------------------------------
+const                    -11.1689      2.053     -5.440      0.000     -15.193      -7.145
+green_ratio                1.1713      0.280      4.190      0.000       0.623       1.719
+blue_ratio                -0.5380      0.351     -1.533      0.125      -1.226       0.150
+social_housing_ratio       0.1296      0.052      2.497      0.013       0.028       0.231
+centralheating_rate       11.1246      2.015      5.522      0.000       7.176      15.073
+employment                 0.4197      0.119      3.529      0.000       0.187       0.653
+university_share           0.4705      0.056      8.349      0.000       0.360       0.581
+benefit_share             -0.0671      0.091     -0.735      0.462      -0.246       0.112
+private_ownership_rate     0.6890      0.277      2.489      0.013       0.147       1.232
+==============================================================================
+Omnibus:                       61.748   Durbin-Watson:                   1.344
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              183.097
+Skew:                           1.072   Prob(JB):                     1.74e-40
+Kurtosis:                       6.642   Cond. No.                         123.
+==============================================================================
+
+Notes:
+[1] Standard Errors are heteroscedasticity robust (HC1)
+
+== Summary (Significance Stars) ==
+
+========================================
+                       AllVars_Robust_23
+----------------------------------------
+const                  -11.1689***      
+                       (2.0529)         
+green_ratio            1.1713***        
+                       (0.2795)         
+blue_ratio             -0.5380          
+                       (0.3509)         
+social_housing_ratio   0.1296**         
+                       (0.0519)         
+centralheating_rate    11.1246***       
+                       (2.0145)         
+employment             0.4197***        
+                       (0.1189)         
+university_share       0.4705***        
+                       (0.0564)         
+benefit_share          -0.0671          
+                       (0.0913)         
+private_ownership_rate 0.6890**         
+                       (0.2768)         
+R-squared              0.7989           
+R-squared Adj.         0.7921           
+========================================
+Standard errors in parentheses.
+* p<.1, ** p<.05, ***p<.01

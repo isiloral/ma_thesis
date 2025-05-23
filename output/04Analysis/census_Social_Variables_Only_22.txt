@@ -1,0 +1,48 @@
+Model: Social_Variables_Only_22 (filtered dataset, robust SEs)
+
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             avg_income   R-squared:                       0.714
+Model:                            OLS   Adj. R-squared:                  0.710
+Method:                 Least Squares   F-statistic:                     111.9
+Date:                Sat, 24 May 2025   Prob (F-statistic):           4.95e-45
+Time:                        00:44:38   Log-Likelihood:                -162.59
+No. Observations:                 239   AIC:                             333.2
+Df Residuals:                     235   BIC:                             347.1
+Df Model:                           3                                         
+Covariance Type:                  HC1                                         
+====================================================================================
+                       coef    std err          z      P>|z|      [0.025      0.975]
+------------------------------------------------------------------------------------
+const               -0.0410      0.032     -1.280      0.201      -0.104       0.022
+employment           0.5430      0.143      3.790      0.000       0.262       0.824
+university_share     0.4084      0.058      7.053      0.000       0.295       0.522
+benefit_share       -0.0954      0.090     -1.056      0.291      -0.272       0.082
+==============================================================================
+Omnibus:                       40.418   Durbin-Watson:                   1.228
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               80.685
+Skew:                           0.848   Prob(JB):                     3.02e-18
+Kurtosis:                       5.285   Cond. No.                         5.98
+==============================================================================
+
+Notes:
+[1] Standard Errors are heteroscedasticity robust (HC1)
+
+== Summary (Significance Stars) ==
+
+=========================================
+                 Social_Variables_Only_22
+-----------------------------------------
+const            -0.0410                 
+                 (0.0320)                
+employment       0.5430***               
+                 (0.1433)                
+university_share 0.4084***               
+                 (0.0579)                
+benefit_share    -0.0954                 
+                 (0.0903)                
+R-squared        0.7137                  
+R-squared Adj.   0.7101                  
+=========================================
+Standard errors in parentheses.
+* p<.1, ** p<.05, ***p<.01

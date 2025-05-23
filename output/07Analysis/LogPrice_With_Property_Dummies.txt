@@ -1,0 +1,62 @@
+Model: LogPrice_With_Property_Dummies
+
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:              avg_price   R-squared:                       0.240
+Model:                            OLS   Adj. R-squared:                  0.239
+Method:                 Least Squares   F-statistic:                     139.0
+Date:                Sat, 24 May 2025   Prob (F-statistic):          2.37e-192
+Time:                        00:47:06   Log-Likelihood:                -4434.9
+No. Observations:                6920   AIC:                             8886.
+Df Residuals:                    6912   BIC:                             8941.
+Df Model:                           7                                         
+Covariance Type:                  HC1                                         
+=======================================================================================
+                          coef    std err          z      P>|z|      [0.025      0.975]
+---------------------------------------------------------------------------------------
+const                   3.9710      0.083     47.818      0.000       3.808       4.134
+distance_to_ugbs     -1.71e-05      0.000     -0.107      0.915      -0.000       0.000
+distance_to_ugbs_sq -2.617e-07   3.96e-07     -0.662      0.508   -1.04e-06    5.13e-07
+avg_review              0.0280      0.016      1.742      0.082      -0.004       0.060
+bedrooms                0.2330      0.009     26.790      0.000       0.216       0.250
+bathrooms               0.2243      0.032      6.952      0.000       0.161       0.288
+ptype_Entire House      0.0491      0.050      0.974      0.330      -0.050       0.148
+ptype_Other             0.1071      0.143      0.748      0.454      -0.173       0.388
+==============================================================================
+Omnibus:                     1931.959   Durbin-Watson:                   1.367
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):            12894.707
+Skew:                           1.167   Prob(JB):                         0.00
+Kurtosis:                       9.267   Cond. No.                     1.10e+06
+==============================================================================
+
+Notes:
+[1] Standard Errors are heteroscedasticity robust (HC1)
+[2] The condition number is large, 1.1e+06. This might indicate that there are
+strong multicollinearity or other numerical problems.
+
+== Summary (Significance Stars) ==
+
+==================================================
+                    LogPrice_With_Property_Dummies
+--------------------------------------------------
+const               3.9710***                     
+                    (0.0830)                      
+distance_to_ugbs    -0.0000                       
+                    (0.0002)                      
+distance_to_ugbs_sq -0.0000                       
+                    (0.0000)                      
+avg_review          0.0280*                       
+                    (0.0161)                      
+bedrooms            0.2330***                     
+                    (0.0087)                      
+bathrooms           0.2243***                     
+                    (0.0323)                      
+ptype_Entire House  0.0491                        
+                    (0.0504)                      
+ptype_Other         0.1071                        
+                    (0.1432)                      
+R-squared           0.2396                        
+R-squared Adj.      0.2388                        
+==================================================
+Standard errors in parentheses.
+* p<.1, ** p<.05, ***p<.01

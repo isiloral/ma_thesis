@@ -3,8 +3,8 @@
 Dep. Variable:                    SSI   R-squared:                       0.119
 Model:                            OLS   Adj. R-squared:                  0.104
 Method:                 Least Squares   F-statistic:                     6.343
-Date:                Thu, 22 May 2025   Prob (F-statistic):           7.31e-05
-Time:                        23:16:10   Log-Likelihood:                -310.43
+Date:                Fri, 23 May 2025   Prob (F-statistic):           7.31e-05
+Time:                        23:07:22   Log-Likelihood:                -310.43
 No. Observations:                 239   AIC:                             630.9
 Df Residuals:                     234   BIC:                             648.2
 Df Model:                           4                                         

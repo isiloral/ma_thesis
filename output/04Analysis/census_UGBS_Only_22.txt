@@ -1,0 +1,46 @@
+Model: UGBS_Only_22 (filtered dataset, robust SEs)
+
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             avg_income   R-squared:                       0.146
+Model:                            OLS   Adj. R-squared:                  0.138
+Method:                 Least Squares   F-statistic:                     12.99
+Date:                Sat, 24 May 2025   Prob (F-statistic):           4.43e-06
+Time:                        00:44:38   Log-Likelihood:                -293.26
+No. Observations:                 239   AIC:                             592.5
+Df Residuals:                     236   BIC:                             602.9
+Df Model:                           2                                         
+Covariance Type:                  HC1                                         
+===============================================================================
+                  coef    std err          z      P>|z|      [0.025      0.975]
+-------------------------------------------------------------------------------
+const          -0.3020      0.065     -4.669      0.000      -0.429      -0.175
+green_ratio     2.4982      0.505      4.946      0.000       1.508       3.488
+blue_ratio     -1.9821      0.567     -3.497      0.000      -3.093      -0.871
+==============================================================================
+Omnibus:                       20.526   Durbin-Watson:                   1.269
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               23.158
+Skew:                           0.723   Prob(JB):                     9.36e-06
+Kurtosis:                       3.487   Cond. No.                         14.7
+==============================================================================
+
+Notes:
+[1] Standard Errors are heteroscedasticity robust (HC1)
+
+== Summary (Significance Stars) ==
+
+===========================
+               UGBS_Only_22
+---------------------------
+const          -0.3020***  
+               (0.0647)    
+green_ratio    2.4982***   
+               (0.5051)    
+blue_ratio     -1.9821***  
+               (0.5668)    
+R-squared      0.1457      
+R-squared Adj. 0.1385      
+===========================
+Standard errors in
+parentheses.
+* p<.1, ** p<.05, ***p<.01

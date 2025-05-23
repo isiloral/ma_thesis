@@ -1,0 +1,71 @@
+Model: UGS_Distance_With_All_Dummies
+
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:              avg_price   R-squared:                       0.085
+Model:                            OLS   Adj. R-squared:                  0.084
+Method:                 Least Squares   F-statistic:                     40.26
+Date:                Sat, 24 May 2025   Prob (F-statistic):           5.92e-78
+Time:                        00:47:06   Log-Likelihood:                -45237.
+No. Observations:                6920   AIC:                         9.050e+04
+Df Residuals:                    6909   BIC:                         9.057e+04
+Df Model:                          10                                         
+Covariance Type:                  HC1                                         
+======================================================================================
+                         coef    std err          z      P>|z|      [0.025      0.975]
+--------------------------------------------------------------------------------------
+const                 77.3086     37.413      2.066      0.039       3.981     150.636
+distance_to_ugs        0.0571      0.050      1.148      0.251      -0.040       0.155
+distance_to_ugs_sq    -0.0002      0.000     -2.082      0.037      -0.000   -1.26e-05
+avg_review            -2.7036      6.599     -0.410      0.682     -15.637      10.230
+bedrooms              35.8217      2.769     12.936      0.000      30.394      41.249
+bathrooms             56.1199      7.515      7.467      0.000      41.390      70.849
+ptype_Entire House    42.7228     39.148      1.091      0.275     -34.007     119.452
+ptype_Other            8.3168     17.088      0.487      0.626     -25.175      41.809
+ugbs_L               -59.6968     12.476     -4.785      0.000     -84.149     -35.244
+ugbs_R               -34.5731     13.227     -2.614      0.009     -60.498      -8.648
+ugbs_U               -74.9311     17.202     -4.356      0.000    -108.646     -41.216
+==============================================================================
+Omnibus:                    16738.611   Durbin-Watson:                   1.885
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):        223175527.067
+Skew:                          25.011   Prob(JB):                         0.00
+Kurtosis:                     881.360   Cond. No.                     1.47e+06
+==============================================================================
+
+Notes:
+[1] Standard Errors are heteroscedasticity robust (HC1)
+[2] The condition number is large, 1.47e+06. This might indicate that there are
+strong multicollinearity or other numerical problems.
+
+== Summary (Significance Stars) ==
+
+================================================
+                   UGS_Distance_With_All_Dummies
+------------------------------------------------
+const              77.3086**                    
+                   (37.4128)                    
+distance_to_ugs    0.0571                       
+                   (0.0497)                     
+distance_to_ugs_sq -0.0002**                    
+                   (0.0001)                     
+avg_review         -2.7036                      
+                   (6.5990)                     
+bedrooms           35.8217***                   
+                   (2.7692)                     
+bathrooms          56.1199***                   
+                   (7.5152)                     
+ptype_Entire House 42.7228                      
+                   (39.1485)                    
+ptype_Other        8.3168                       
+                   (17.0881)                    
+ugbs_L             -59.6968***                  
+                   (12.4760)                    
+ugbs_R             -34.5731***                  
+                   (13.2273)                    
+ugbs_U             -74.9311***                  
+                   (17.2020)                    
+R-squared          0.0851                       
+R-squared Adj.     0.0838                       
+================================================
+Standard errors in parentheses.
+* p<.1, ** p<.05, ***p<.01

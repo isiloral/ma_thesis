@@ -1,0 +1,56 @@
+Model: LogPrice_Only_UGBS_Dummies
+
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:              avg_price   R-squared:                       0.032
+Model:                            OLS   Adj. R-squared:                  0.031
+Method:                 Least Squares   F-statistic:                     38.54
+Date:                Sat, 24 May 2025   Prob (F-statistic):           3.75e-39
+Time:                        00:33:33   Log-Likelihood:                -5270.2
+No. Observations:                6920   AIC:                         1.055e+04
+Df Residuals:                    6914   BIC:                         1.059e+04
+Df Model:                           5                                         
+Covariance Type:                  HC1                                         
+=======================================================================================
+                          coef    std err          z      P>|z|      [0.025      0.975]
+---------------------------------------------------------------------------------------
+const                   4.9232      0.029    169.584      0.000       4.866       4.980
+distance_to_ugbs     2.919e-06      0.000      0.017      0.987      -0.000       0.000
+distance_to_ugbs_sq -3.049e-07    4.3e-07     -0.709      0.478   -1.15e-06    5.38e-07
+ugbs_L                 -0.2872      0.027    -10.547      0.000      -0.341      -0.234
+ugbs_R                 -0.0886      0.033     -2.698      0.007      -0.153      -0.024
+ugbs_U                 -0.3332      0.067     -4.999      0.000      -0.464      -0.203
+==============================================================================
+Omnibus:                     1607.870   Durbin-Watson:                   1.499
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):             5895.778
+Skew:                           1.129   Prob(JB):                         0.00
+Kurtosis:                       6.918   Cond. No.                     3.95e+05
+==============================================================================
+
+Notes:
+[1] Standard Errors are heteroscedasticity robust (HC1)
+[2] The condition number is large, 3.95e+05. This might indicate that there are
+strong multicollinearity or other numerical problems.
+
+== Summary (Significance Stars) ==
+
+==============================================
+                    LogPrice_Only_UGBS_Dummies
+----------------------------------------------
+const               4.9232***                 
+                    (0.0290)                  
+distance_to_ugbs    0.0000                    
+                    (0.0002)                  
+distance_to_ugbs_sq -0.0000                   
+                    (0.0000)                  
+ugbs_L              -0.2872***                
+                    (0.0272)                  
+ugbs_R              -0.0886***                
+                    (0.0329)                  
+ugbs_U              -0.3332***                
+                    (0.0666)                  
+R-squared           0.0319                    
+R-squared Adj.      0.0312                    
+==============================================
+Standard errors in parentheses.
+* p<.1, ** p<.05, ***p<.01

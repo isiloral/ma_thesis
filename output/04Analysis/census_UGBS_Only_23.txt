@@ -1,0 +1,46 @@
+Model: UGBS_Only_23
+
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             avg_income   R-squared:                       0.105
+Model:                            OLS   Adj. R-squared:                  0.098
+Method:                 Least Squares   F-statistic:                     11.02
+Date:                Sat, 24 May 2025   Prob (F-statistic):           2.61e-05
+Time:                        00:44:38   Log-Likelihood:                -334.93
+No. Observations:                 246   AIC:                             675.9
+Df Residuals:                     243   BIC:                             686.4
+Df Model:                           2                                         
+Covariance Type:                  HC1                                         
+===============================================================================
+                  coef    std err          z      P>|z|      [0.025      0.975]
+-------------------------------------------------------------------------------
+const          -0.2133      0.073     -2.906      0.004      -0.357      -0.069
+green_ratio     2.3918      0.520      4.604      0.000       1.374       3.410
+blue_ratio     -1.8566      0.637     -2.916      0.004      -3.105      -0.609
+==============================================================================
+Omnibus:                       46.166   Durbin-Watson:                   0.988
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               70.975
+Skew:                           1.085   Prob(JB):                     3.87e-16
+Kurtosis:                       4.488   Cond. No.                         14.8
+==============================================================================
+
+Notes:
+[1] Standard Errors are heteroscedasticity robust (HC1)
+
+== Summary (Significance Stars) ==
+
+===========================
+               UGBS_Only_23
+---------------------------
+const          -0.2133***  
+               (0.0734)    
+green_ratio    2.3918***   
+               (0.5196)    
+blue_ratio     -1.8566***  
+               (0.6368)    
+R-squared      0.1049      
+R-squared Adj. 0.0975      
+===========================
+Standard errors in
+parentheses.
+* p<.1, ** p<.05, ***p<.01
