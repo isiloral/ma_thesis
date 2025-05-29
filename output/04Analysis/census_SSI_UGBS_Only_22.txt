@@ -1,0 +1,45 @@
+Model: SSI_UGBS_Only_22 (SSI as dependent variable, robust SEs)
+
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                    SSI   R-squared:                       0.068
+Model:                            OLS   Adj. R-squared:                  0.060
+Method:                 Least Squares   F-statistic:                     7.901
+Date:                Sat, 24 May 2025   Prob (F-statistic):           0.000477
+Time:                        23:22:46   Log-Likelihood:                -317.12
+No. Observations:                 239   AIC:                             640.2
+Df Residuals:                     236   BIC:                             650.7
+Df Model:                           2                                         
+Covariance Type:                  HC1                                         
+===============================================================================
+                  coef    std err          z      P>|z|      [0.025      0.975]
+-------------------------------------------------------------------------------
+const          -0.2132      0.071     -2.999      0.003      -0.352      -0.074
+green_ratio     1.7853      0.478      3.736      0.000       0.849       2.722
+blue_ratio     -1.7076      0.606     -2.817      0.005      -2.896      -0.520
+==============================================================================
+Omnibus:                        0.858   Durbin-Watson:                   1.190
+Prob(Omnibus):                  0.651   Jarque-Bera (JB):                0.576
+Skew:                          -0.079   Prob(JB):                        0.750
+Kurtosis:                       3.181   Cond. No.                         14.7
+==============================================================================
+
+Notes:
+[1] Standard Errors are heteroscedasticity robust (HC1)
+
+== Summary (Significance Stars) ==
+
+===============================
+               SSI_UGBS_Only_22
+-------------------------------
+const          -0.2132***      
+               (0.0711)        
+green_ratio    1.7853***       
+               (0.4779)        
+blue_ratio     -1.7076***      
+               (0.6062)        
+R-squared      0.0683          
+R-squared Adj. 0.0604          
+===============================
+Standard errors in parentheses.
+* p<.1, ** p<.05, ***p<.01

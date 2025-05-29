@@ -1,0 +1,48 @@
+Model: SSI_Social_Variables_Only_22 (SSI as dependent variable, robust SEs)
+
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                    SSI   R-squared:                       0.965
+Model:                            OLS   Adj. R-squared:                  0.965
+Method:                 Least Squares   F-statistic:                     1434.
+Date:                Sat, 24 May 2025   Prob (F-statistic):          1.00e-150
+Time:                        23:22:46   Log-Likelihood:                 75.062
+No. Observations:                 239   AIC:                            -142.1
+Df Residuals:                     235   BIC:                            -128.2
+Df Model:                           3                                         
+Covariance Type:                  HC1                                         
+====================================================================================
+                       coef    std err          z      P>|z|      [0.025      0.975]
+------------------------------------------------------------------------------------
+const               -0.0152      0.012     -1.280      0.201      -0.038       0.008
+employment           0.3859      0.053      7.280      0.000       0.282       0.490
+university_share     0.5210      0.021     24.323      0.000       0.479       0.563
+benefit_share        0.1497      0.033      4.481      0.000       0.084       0.215
+==============================================================================
+Omnibus:                       40.418   Durbin-Watson:                   1.228
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               80.685
+Skew:                           0.848   Prob(JB):                     3.02e-18
+Kurtosis:                       5.285   Cond. No.                         5.98
+==============================================================================
+
+Notes:
+[1] Standard Errors are heteroscedasticity robust (HC1)
+
+== Summary (Significance Stars) ==
+
+=============================================
+                 SSI_Social_Variables_Only_22
+---------------------------------------------
+const            -0.0152                     
+                 (0.0118)                    
+employment       0.3859***                   
+                 (0.0530)                    
+university_share 0.5210***                   
+                 (0.0214)                    
+benefit_share    0.1497***                   
+                 (0.0334)                    
+R-squared        0.9650                      
+R-squared Adj.   0.9646                      
+=============================================
+Standard errors in parentheses.
+* p<.1, ** p<.05, ***p<.01

@@ -6,7 +6,7 @@ Dep. Variable:              avg_price   R-squared:                       0.010
 Model:                            OLS   Adj. R-squared:                  0.009
 Method:                 Least Squares   F-statistic:                     10.37
 Date:                Sat, 24 May 2025   Prob (F-statistic):           6.31e-10
-Time:                        00:47:06   Log-Likelihood:                -45511.
+Time:                        23:21:21   Log-Likelihood:                -45511.
 No. Observations:                6920   AIC:                         9.103e+04
 Df Residuals:                    6914   BIC:                         9.107e+04
 Df Model:                           5                                         

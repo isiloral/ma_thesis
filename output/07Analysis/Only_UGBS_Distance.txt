@@ -1,0 +1,47 @@
+Model: Only_UGBS_Distance
+
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:              avg_price   R-squared:                       0.000
+Model:                            OLS   Adj. R-squared:                 -0.000
+Method:                 Least Squares   F-statistic:                     3.298
+Date:                Sat, 24 May 2025   Prob (F-statistic):             0.0370
+Time:                        23:21:21   Log-Likelihood:                -45544.
+No. Observations:                6920   AIC:                         9.109e+04
+Df Residuals:                    6917   BIC:                         9.111e+04
+Df Model:                           2                                         
+Covariance Type:                  HC1                                         
+=======================================================================================
+                          coef    std err          z      P>|z|      [0.025      0.975]
+---------------------------------------------------------------------------------------
+const                 128.9806      4.917     26.230      0.000     119.343     138.618
+distance_to_ugbs        0.0280      0.058      0.484      0.628      -0.085       0.141
+distance_to_ugbs_sq    -0.0001      0.000     -1.214      0.225      -0.000    9.07e-05
+==============================================================================
+Omnibus:                    15982.953   Durbin-Watson:                   1.852
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):        158335537.287
+Skew:                          22.369   Prob(JB):                         0.00
+Kurtosis:                     742.689   Cond. No.                     7.62e+04
+==============================================================================
+
+Notes:
+[1] Standard Errors are heteroscedasticity robust (HC1)
+[2] The condition number is large, 7.62e+04. This might indicate that there are
+strong multicollinearity or other numerical problems.
+
+== Summary (Significance Stars) ==
+
+======================================
+                    Only_UGBS_Distance
+--------------------------------------
+const               128.9806***       
+                    (4.9173)          
+distance_to_ugbs    0.0280            
+                    (0.0578)          
+distance_to_ugbs_sq -0.0001           
+                    (0.0001)          
+R-squared           0.0001            
+R-squared Adj.      -0.0001           
+======================================
+Standard errors in parentheses.
+* p<.1, ** p<.05, ***p<.01

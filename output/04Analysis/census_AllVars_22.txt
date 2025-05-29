@@ -6,7 +6,7 @@ Dep. Variable:             avg_income   R-squared:                       0.834
 Model:                            OLS   Adj. R-squared:                  0.829
 Method:                 Least Squares   F-statistic:                     89.63
 Date:                Sat, 24 May 2025   Prob (F-statistic):           2.42e-66
-Time:                        00:44:38   Log-Likelihood:                -97.270
+Time:                        23:22:46   Log-Likelihood:                -97.270
 No. Observations:                 239   AIC:                             212.5
 Df Residuals:                     230   BIC:                             243.8
 Df Model:                           8                                         

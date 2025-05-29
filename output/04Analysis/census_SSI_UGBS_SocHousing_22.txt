@@ -1,0 +1,48 @@
+Model: SSI_UGBS_SocHousing_22 (SSI as dependent variable, robust SEs)
+
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                    SSI   R-squared:                       0.119
+Model:                            OLS   Adj. R-squared:                  0.108
+Method:                 Least Squares   F-statistic:                     7.566
+Date:                Sat, 24 May 2025   Prob (F-statistic):           7.48e-05
+Time:                        23:22:46   Log-Likelihood:                -310.44
+No. Observations:                 239   AIC:                             628.9
+Df Residuals:                     235   BIC:                             642.8
+Df Model:                           3                                         
+Covariance Type:                  HC1                                         
+========================================================================================
+                           coef    std err          z      P>|z|      [0.025      0.975]
+----------------------------------------------------------------------------------------
+const                   -0.0886      0.089     -0.996      0.319      -0.263       0.086
+green_ratio              1.7067      0.495      3.446      0.001       0.736       2.677
+blue_ratio              -1.6442      0.578     -2.844      0.004      -2.777      -0.511
+social_housing_ratio    -0.5948      0.303     -1.962      0.050      -1.189      -0.001
+==============================================================================
+Omnibus:                        5.650   Durbin-Watson:                   1.122
+Prob(Omnibus):                  0.059   Jarque-Bera (JB):                7.964
+Skew:                           0.090   Prob(JB):                       0.0186
+Kurtosis:                       3.876   Cond. No.                         15.0
+==============================================================================
+
+Notes:
+[1] Standard Errors are heteroscedasticity robust (HC1)
+
+== Summary (Significance Stars) ==
+
+===========================================
+                     SSI_UGBS_SocHousing_22
+-------------------------------------------
+const                -0.0886               
+                     (0.0890)              
+green_ratio          1.7067***             
+                     (0.4952)              
+blue_ratio           -1.6442***            
+                     (0.5782)              
+social_housing_ratio -0.5948**             
+                     (0.3031)              
+R-squared            0.1189                
+R-squared Adj.       0.1077                
+===========================================
+Standard errors in parentheses.
+* p<.1, ** p<.05, ***p<.01

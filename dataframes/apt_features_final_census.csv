@@ -1,4 +1,4 @@
-district_code,census_district_code,total_apartments,no_central_heating,central_heating,owner_private,owner_public,owner_nonprofit,owner_other
+district_code,census_district_code,total_flats,no_central_heating,central_heating,owner_private,owner_public,owner_nonprofit,owner_other
 90100,90101,2686,94,2592,1271,483,4,928
 90100,90102,945,31,914,559,33,4,349
 90100,90103,1294,34,1260,708,74,0,512
